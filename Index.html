@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+      <title>Codecademy HTML & CSS Shorthand</title>
+  </head>
+  <header>
+    <h1 class="headers">HTML & CSS Tag References</h1>
+    <h2 class="headers">Jump to a Section</h2>
+    <nav>
+      <a href="#body">Body Tags</a>
+      <a href="#text">Text Tags</a>
+      <a href="tables">Table Tags</a>
+      <a href="#media">Media Tags</a>
+      <a href="#forms">Form Tags</a>
+      <a href="#css">CSS Selectors</a>
+    </nav>
+  </header>
+  <body>
+    <br>
+    <h2 id="body" class="headers">Body Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;!DOCTYPE html&gt;</td>
+          <td>HTML declaration</td>
+          <td>Lets browser know the file typ ebeing used.  <strong>MUST BE FIRST LINE OF CODE.</strong></td>
+        </tr>
+        <tr>
+          <td>&lt;html&gt;&lt;/html&gt;</td>
+          <td>HTML Tag</td>
+          <td>Contains all HTML code inside of it and lets the browser know.</td>
+        </tr>
+        <tr>
+          <td>&lt;head&gt;&lt;/head&gt;</td>
+          <td>Head Tag</td>
+          <td>Contains metadata about page content not actually visible on page</td>
+        </tr>
+        <tr>
+          <td>&lt;title&gt;&lt;/title&gt;</td>
+          <td>Title Tag</td>
+          <td>Name of page in browser tab.  Contained within Head tags</td>
+        </tr>
+        <tr>
+          <td>&lt;link&gt;</td>
+          <td>Link Tag</td>
+          <td>Specifies linking CSS file with required 3 attribute syntax: href="filepath" type="text/css" rel="stylesheet".  Self closing tag that must be included in head tag</td>
+        </tr>
+        <tr>
+          <td>&lt;style&gt;&lt;/style&gt;</td>
+          <td>Style Tag</td>
+          <td>Can be included in head tag to specify which elements recieve the styling using actual CSS format inside HTML document</td>
+        </tr>
+        <tr>
+          <td>&lt;main&gt;&lt;/main&gt;</td>
+          <td>Main Tag</td>
+          <td>Encapsulates most of the content on a page.  Usually contains header and nav tags</td>
+        </tr>
+        <tr>
+          <td>&lt;header&gt;&lt;/header&gt;</td>
+          <td>Header Tag</td>
+          <td>Contains navigational links or introductory content (h1 - h6)</td>
+        </tr>
+        <tr>
+          <td>&lt;nav&gt;&lt;/nav&gt;</td>
+          <td>Navigation Tag</td>
+          <td>Used to define a block of navigation links (for menus, T.O.C. etc)</td>
+        </tr>
+        <tr>
+          <td>&lt;footer&gt;&lt;/footer&gt;</td>
+          <td>Footer Tag</td>
+          <td>For contact information, copyright information, terms of use, site map, reference to top page links</td>
+        </tr>
+        <tr>
+          <td>&lt;section&gt;&lt;/section&gt;</td>
+          <td>Section Tag</td>
+          <td>Defines elements in a document like chapters, headings or other area of the document with a similar theme</td>
+        </tr>
+        <tr>
+          <td>&lt;article&gt;&lt;/article&gt;</td>
+          <td>Article Tag</td>
+          <td>Content that makes sense on its own such as articles, blogs, magazines, comments etc</td>
+        </tr>
+        <tr>
+          <td>&lt;aside&gt;&lt;/aside&gt;</td>
+          <td>Aside Tag</td>
+          <td>Enhances another element but isn't necessary to understand main theme(bibliographies, endnotes, comments,etc)</td>
+        </tr>
+      </tbody>
+      </table>
+      <h3 class="headers">Related Attributes</h3>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Description</th>
+      </thead>
+    </table>
+    <br>
+    <h2 class="headers" id="text">Text Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;div&gt;&lt/div&gt;</td>
+          <td>Division</td>
+          <td>Used to separate content</td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;&lt;/p&gt;</td>
+          <td>Paragraph</td>
+          <td>Declares a paragraph</td>
+        </tr>
+        <tr>
+          <td>&lt;span&gt;&lt;/span&gt;</td>
+          <td>Span</td>
+          <td>Separates text on the same line</td>
+        </tr>
+        <tr>
+          <td>&lt;em&gt;&lt;/em&gt;</td>
+          <td>Emphasize</td>
+          <td>Renders text between tags as <em>italics</em></td>
+        </tr>
+        <tr>
+          <td>&lt;strong&gt;&lt;/strong&gt;</td>
+          <td>Srong</td>
+          <td>Renders text between tags as <strong>bold</strong></td>
+        </tr>
+        <tr>
+          <td>&lt;br&gt;</td>
+          <td>Break</td>
+          <td>Adds a break in the page.  Doesn't need closing tag</td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt;&lt;/ul&gt;</td>
+          <td>Unordered List</td>
+          <td>Identifies Bulleted List</td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt;&lt;/ol&gt;</td>
+          <td>Ordered List</td>
+          <td>Identifies a Numbered List</td>
+        </tr>
+        <tr>
+          <td>&lt;li&gt;&lt;/li&gt;</td>
+          <td>List Item</td>
+          <td>Nested element that lies within a list</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 class="headers">Related Text Attributes</h3>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Description</th>
+      </thead>
+    </table>
+    <br>
+    <h2 id="tables" class="headers">Table Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;table&gt;&lt;/table&gt;</td>
+          <td>Table Tag</td>
+          <td>Creates a table</td>
+        </tr>
+
+        <tr>
+          <td>&lt;tr&gt;&lt;/tr&gt;</td>
+          <td>Table Row Tag</td>
+          <td>Creates a table row</td>
+        </tr>
+        <tr>
+          <td>&lt;th&gt;&lt;/th&gt;</td>
+          <td>Table Header tag</td>
+          <td> Creates a table header within a row.</td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt;&lt;/td&gt;</td>
+          <td>Table Data Tag</td>
+          <td>Creates table data in a row.</td>
+        </tr>
+        <tr>
+          <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+          <td>Table Body Tag</td>
+          <td>Enclose long table into parts</td>
+        </tr>
+        <tr>
+          <td>&lt;thead&gt;&lt;/thead&gt;</td>
+          <td>Table Header Tag</td>
+          <td>Enclose the Header row of a table</td>
+        </tr>
+        <tr>
+          <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+          <td>Table Footer Tag</td>
+          <td>Contains sms or collections of data from the table.</td>
+        </tr>
+      </tbody>
+      </table>
+      <h3 class="headers">Related Table Attributes</h3>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>scope=""</td>
+          <td>Belongs in table heading tag.  Accepts ="row" (sets heading to row) and ="column" (sets to column)</td>
+        </tr>
+        <tr>
+          <td>colspan="n"</td>
+          <td>Spans data across multiple columns</td>
+        </tr>
+        <tr>
+          <td>rowspan="n"</td>
+          <td>Spans across multiple rows.</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <h2 id="media" class="headers">Media Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;a&gt;&lt;/a&gt;</td>
+          <td>Anchor Tag</td>
+          <td>Defines hyperlink to link one page to another. Uses href="" attribute.   </td>
+        </tr>
+        <tr>
+          <td>&lt;figure&gt;&lt;/figure</td>
+          <td>Figure Tag</td>
+          <td>Used to encapsulate media in the main document (image, illustration, diagrams, code snippets)</td>
+        </tr>
+        <tr>
+          <td>&lt;figcaption&gt;&lt;/figcaption&gt;</td>
+          <td>Figure Caption</td>
+          <td>Describes media. Usually contained inside figure tags. Moving it won't distrupt document flow</td>
+        </tr>
+        <tr>
+          <td>&lt;audio&gt;&lt;/audio</td>
+          <td>Audio Tag</td>
+          <td>Use for linking audio files</td>
+        </tr>
+        <tr>
+          <td>&lt;video&gt;&lt;/video&gt;</td>
+          <td>Video Tag</td>
+          <td>Use for linking video files</td>
+        </tr>
+      </tbody>
+      </table>
+      <h3 class="headers">Related Media Attributes (include in opening tag)</h3>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>target=""</td>
+          <td>Used in anchor tag to specify how the link is opened.(_blank, _parent, _self, _top)</td>
+        </tr>
+        <tr>
+          <td>src=""</td>
+          <td>Specifies the location of the media. URL if external or filepath if local</td>
+        </tr>
+        <tr>
+          <td>controls</td>
+          <td>Includes things like pause,start, stop for video and audio</td>
+        </tr>
+        <tr>
+          <td>autoplay</td>
+          <td>Indicates whether the video/audio automatically start playing on load</td>
+        </tr>
+        <tr>
+          <td>loop</td>
+          <td>Loops the video/audio</td>
+        </tr>
+
+      </tbody>
+    </table>
+    <br>
+    <h2 id="forms" class="headers">Form Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;form&gt;&lt;/form&gt;</td>
+          <td>Form Tag</td>
+          <td>Indicates to take input from a user (can contain child elements: h1, p, etc)</td>
+        </tr>
+        <tr>
+          <td>&lt;input&gt;</td>
+          <td>Input Tag</td>
+          <td>Nested tag inside Form.  Specifies kind of input with type="" attribute and association with lable tag via 'id=""' attribute </td>
+        </tr>
+        <tr>
+          <td>&lt;label&gt;&lt;/label&gt;</td>
+          <td>Label Tag</td>
+          <td>Properly identify a form (contains the 'for=""'</td>
+        </tr>
+        <tr>
+          <td>&lt;textarea&gt;&lt;/textarea&gt;</td>
+          <td>Text Area Tag</td>
+          <td>Includes rows/cols to create large user text input area. Text between tags shows as prefilled in the box</td>
+        </tr>
+      </tbody>
+      </table>
+      <h3 class="headers">Related Form Attributes (included in opening tag)</h3>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>action=""</td>
+          <td>used in Form tag.  Determines where information is sent</td>
+        </tr>
+        <tr>
+          <td>method=""</td>
+          <td>used in Form tag. Performs assigned HTTP verb on the action</td>
+        </tr>
+        <tr>
+          <td>type=""</td>
+          <td>Determines how the the form is rendered on the webpage and what data it accepts (text, passord, number, step, range, checkbox, radio, dropdown, datalist, submit)</td>
+        </tr>
+        <tr>
+          <td>"text"</td>
+          <td>Creates field for text</td>
+        </tr>
+        <tr>
+          <td>name=""</td>
+          <td>Lables input for when it's sent for processing after "Submit".  <strong>*Each input can have the same value for name but different , unique IDs to pair with a label. Useful for grouping inputs together.</strong></td>
+        </tr>
+        <tr>
+          <td>value=""</td>
+          <td>What is entered in the field from user.  If filled in will be pre-filled in the form.</td>
+        </tr>
+        <tr>
+          <td>"password"</td>
+          <td>Hides user input and converts to something like an asterisk or dot</td>
+        </tr>
+        <tr>
+          <td>"number"</td>
+          <td>Accepts numbers, -, + and .</td>
+        </tr>
+        <tr>
+          <td>step=""</td>
+          <td>Used with number. Adds arrows to increase or decrease the number by the step value</td>
+        </tr>
+        <tr>
+          <td>"range"</td>
+          <td>Creates a slider w/ min="" and max="" attributes.  step="n" assigned value of each change, smaller value means more fluid change</td>
+        </tr>
+        <tr>
+          <td>"checkbox"</td>
+          <td>Creates checkboxes.  <em>Value assignment helps return information but can't always be sen in the form.  That's why we use labels.*</em></td>
+        </tr>
+        <tr>
+          <td>"radio"</td>
+          <td>Like checkboxes, group together by assigning same name but only allow one input.</td>
+        </tr>
+        <tr>
+          <td>"dropdown"</td>
+          <td>Creates dropdown menu. Syntax:&lt;select id="category" name="category"&gt; &lt;option value="text"&gt; text &lt;/option&gt; &lt;/select&gt;</td>
+        </tr>
+        <tr>
+          <td>"datalist"</td>
+          <td>Uses type="text" to take user input and filter results in a dropdown fashion or accept new user input.  Uses list="" attrigute in input element.</td>
+        </tr>
+        <tr>
+          <td>"submit"</td>
+          <td>Creates submit button.  Can set value="text to display on button(Submit by default)." <strong>When submitted, name attribute fields that accept values and their input are submitted as "name=value" pair.</strong></td>
+        </tr>
+        <tr>
+          <td>required</td>
+          <td>Validates the form, In input tag element means form can't be submitted without.  Uses min/max to restrict numbers, minlength/maxlength to restrict text, pattern to specify pattern (numbers, characters etc).</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <h2 id="css" class="headers">CSS Selectors</h2>
+    <table>
+      <thead>
+        <th>Selector</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML Attribute id="" / CSS Selector #idname { styling}</td>
+          <td>Meant to style one element only.  Overrides class and tag.  Most Specific. Use if class selector isn't possible.</td>
+        </tr>
+        <tr>
+          <td>.class {styling}</td>
+          <td>References coresponding HTML attribute specifcially.  Reusable, meant to be used over many elements. Use if tag selector isn't possible.  Can use multiple classes by separating the names in the 'class' attribute in HTML tag with a space.<strong> Syntax class ="classname1 classname2"</strong></td>
+        </tr>
+        <tr>
+          <td>element tag (ie &lt;p&gt;, &lt;h1&gt;, .classname etc)</td>
+          <td>Least specific.  Can refrence multiple in CSS by separating with a comma in declaration.  Syntax: <strong> h1, h2, p, {styling}</strong> </td>
+        </tr>
+        <tr>
+          <td>Chaining Selectors: tag.classname {styling}</td>
+          <td>Effects only that specific tag type.</td>
+        </tr>
+        <tr>
+          <td>Nested Elements: .classname tag</td>
+          <td>Applies class to specified elements.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <footer>
+
+  </footer>
+</html>
